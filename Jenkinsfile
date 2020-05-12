@@ -1,5 +1,5 @@
 node(){
- 
+ asd
          stage("clone code"){
              echo "clone" 
              checkout changelog: false, poll: false, scm: [$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/csenapati12/maven-samples.git']]]
